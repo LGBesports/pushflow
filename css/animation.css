@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@-webkit-keyframes pulse-first {
+  from {
+    background: #7fff74;
+  }
+  50% {
+    background: #ff4c4c;
+  }
+  to {
+    background: #7fff74;
+  }
+}
+
+@keyframes pulse-first {
+  from {
+    background: #7fff74;
+  }
+  50% {
+    background: #ff4c4c;
+  }
+  to {
+    background: #7fff74;
+  }
+}
+
+.pulse-first {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse-text {
+  from {
+    color: #ff4c4c;
+  }
+  50% {
+    color: #7fff74;
+  }
+  to {
+    color: #ff4c4c;
+  }
+}
+
+@keyframes pulse-text {
+  from {
+    color: #ff4c4c;
+  }
+  50% {
+    color: #7fff74;
+  }
+  to {
+    color: #ff4c4c;
+  }
+}
+
+.pulse-text {
+  -webkit-animation-name: pulse-text;
+  animation-name: pulse-text;
+}
+@-webkit-keyframes background {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes background {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.background {
+  
+  -webkit-animation-name: background;
+  animation-name: background;
+}
+@-webkit-keyframes gotop {
+  from {
+    top: 50vh;
+  }
+
+  to {
+    top: 20vh;
+  }
+}
+
+@keyframes gotop {
+  from {
+    top: 40vh;
+  }
+
+  to {
+    top: 10vh;
+  }
+}
+
+.go-top {
+  
+  -webkit-animation-name: gotop;
+  animation-name: gotop;
+  animation-delay: 1s;
+}
+@-webkit-keyframes goleft {
+  from {
+    right: -20vw;
+  }
+
+  to {
+    right: 10vw;
+  }
+}
+
+@keyframes goleft {
+  from {
+    right: -100vw;
+  }
+
+  to {
+    right: 3vw;
+  }
+}
+
+.goleft {
+  
+  -webkit-animation-name: goleft;
+  animation-name: goleft;
+  animation-delay: 4s;
+}
+@-webkit-keyframes animated-mouse {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
